@@ -1,3 +1,9 @@
+macro_newtab: macro_newtab{
+compatible = "zmk,behavior-macro";
+label = "macro_newtab";
+#binding-cells = <0>;
+bindings = <&kp LCTRL>, <&kp LEFT_SHIFT>, <&kp SPACE>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
